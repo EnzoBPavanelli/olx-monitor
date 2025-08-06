@@ -21,13 +21,14 @@ Criar um sistema automatizado de monitoramento de produtos na OLX que:
 ## Estrutura do Projeto
 
 olxmonitor-main/
-├── main2.py # Script principal de monitoramento
-├── filters.py # Definição dos filtros de produtos e preços
-├── notifier.py # Envio de mensagens via Telegram
-├── parser.py # Parser dos dados extraídos da OLX
-├── telegram_bot.py # Configuração da API do Telegram
-├── enviados.json # Armazena os anúncios já enviados
-└── requirements.txt # Dependências do projeto
+
+├── main2.py               
+├── filters.py              
+├── notifier.py     
+├── parser.py         
+├── telegram_bot.py             
+├── enviados.jason      
+├── requirements.txt 
 
 ## Como Funciona
 
@@ -61,7 +62,7 @@ Projeto funcional e utilizado regularmente para monitorar o mercado de câmeras 
 
 ## Licença
 
-Uso pessoal e não-comercial. Todos os direitos reservados ao autor.
+Uso pessoal. Todos os direitos reservados ao autor.
 
 ## Contato
 
