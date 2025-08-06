@@ -1,7 +1,7 @@
 import requests
 
-TELEGRAM_TOKEN = "7753035599:AAFPRQ-fI-7uRxwy8P_P_zdNDQFFkP_s5Fc"
-TELEGRAM_CHAT_ID = "8140693630"
+TELEGRAM_TOKEN = "COLE AQUI SEWU TOKEN"
+TELEGRAM_CHAT_ID = "COLE AQUI SEU CHAT ID"
 
 def enviar_telegram(mensagem):
     url = f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendMessage"
@@ -13,3 +13,4 @@ def enviar_telegram(mensagem):
         requests.post(url, data=data)
     except Exception as e:
         print("❌ Erro ao enviar para o Telegram:", e)
+
